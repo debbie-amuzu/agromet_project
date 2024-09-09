@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+}
+
+/* for nav */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 60px;
+  align-items: center;
+  background-color: cornflowerblue;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+
+span {
+  color: black;
+}
+
+#header {
+  font-size: 32px;
+  line-height: 38.4px;
+  text-align: left;
+  letter-spacing: normal;
+  color: greenyellow;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background:  #4C729C; */
+}
+
+/* to add backgroud img */
+#hero {
+  background-image: url("img/herobg.png");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* make your backgroubd writting */
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* making and giving colour to writing */
+#hero-title {
+  color: white;
+  font-size: 3rem;
+}
+
+#hero-subtext {
+  color: white;
+  font-size: 2rem;
+}
+
+#hero-button {
+  background-color: seagreen;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 70%;
+  color: black;
+}
+
+.nav-items a {
+  color: bisque;
+  font-family: serif;
+  font-size: large;
+}
+
+/* works */
+
+#works {
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  row-gap: 50px;
+}
+
+.header {
+  width: 60%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.header h2 {
+  font-size: 2.5rem;
+}
+
+/* for image arrange its simplier using grid rather than flex */
+#gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  gap: 50px;
+}
+
+.gallery-item {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  opacity: 0;
+}
+
+.gallery-overlay:hover {
+  opacity: 1;
+}
+
+#features {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 8rem 0;
+  padding: 0 6rem;
+  column-gap: 3rem;
+}
+
+.feature-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.feature-title {
+  color: orangered;
+  font-weight: bold;
+  font-size: 1.6rem;
+  font-family: ;
+}
+
+.feature-list li {
+  display: flex;
+  /* flex-direction: row; */
+  column-gap: 20px;
+}
+
+#topper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #32dbc6;
+  border: 60vh;
+  padding: 5vh;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  font-family: serif;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  align-content: center;
+  padding: 10vh;
+}
+
+#item {
+    padding: 10%;
+    align-items: center;
+}
+
+.feet {
+    padding: ;
+}
