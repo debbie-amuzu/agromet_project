@@ -200,12 +200,10 @@ span {
 
 .white {
   color: white;
-
 }
 
 .bg {
   background: #333333;
-
 }
 
 .display {
@@ -224,33 +222,42 @@ span {
   color: white;
   background-color: aqua;
 }
-#email {
-  border-color: aquamarine;
-  background-color: none;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 20px;
- 
-}
+
 .para {
   color: grey;
 }
 
 #item {
-    padding: 10%;
-    align-items: center;
+  padding: 10%;
+  align-items: center;
 }
 
 .feet {
-    padding: ;
+  padding: ;
 }
 
 #copy {
   display: flex;
   justify-content: center;
   border-top: #35e9d4;
+  color: grey
 }
 
 #foot {
   height: ;
+}
+
+#footer-button {
+  background-color: #35e9d4;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #019480;
+}
+#email {
+  background-color: #35e9d4;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #019480;
 }
