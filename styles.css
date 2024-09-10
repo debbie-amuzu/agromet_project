@@ -185,26 +185,55 @@ span {
   column-gap: 20px;
 }
 
-#topper {
+#foothead {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #32dbc6;
+  background: #35e9d4;
   border: 60vh;
   padding: 5vh;
   font-size: 1.5rem;
   font-weight: bold;
   color: white;
-  font-family: serif;
+  font-style: italic;
 }
 
+.white {
+  color: white;
+
+}
+
+.bg {
+  background: #333333;
+
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+}
 .footer {
   display: flex;
   justify-content: space-between;
-  background: black;
   color: white;
   align-content: center;
   padding: 10vh;
+}
+
+#send {
+  color: white;
+  background-color: aqua;
+}
+#email {
+  border-color: aquamarine;
+  background-color: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+ 
+}
+.para {
+  color: grey;
 }
 
 #item {
@@ -214,4 +243,14 @@ span {
 
 .feet {
     padding: ;
+}
+
+#copy {
+  display: flex;
+  justify-content: center;
+  border-top: #35e9d4;
+}
+
+#foot {
+  height: ;
 }
