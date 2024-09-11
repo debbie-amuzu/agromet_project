@@ -172,12 +172,6 @@ span {
   row-gap: 10px;
 }
 
-.feature-title {
-  color: orangered;
-  font-weight: bold;
-  font-size: 1.6rem;
-  font-family: ;
-}
 
 .feature-list li {
   display: flex;
@@ -198,24 +192,16 @@ span {
   font-style: italic;
 }
 
-.white {
-  color: white;
-}
 
-.bg {
-  background: #333333;
-}
-
-.display {
-  display: flex;
-  flex-direction: column;
-}
 .footer {
   display: flex;
   justify-content: space-between;
   color: white;
   align-content: center;
   padding: 10vh;
+  background-color: #333333;
+  height: 50%;
+
 }
 
 #send {
@@ -227,25 +213,20 @@ span {
   color: grey;
 }
 
-#item {
-  padding: 10%;
-  align-items: center;
-}
 
-.feet {
-  padding: ;
-}
 
 #copy {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  border-top: #35e9d4;
-  color: grey
+  align-items: center;
+  /* color: grey; */
+  background-color: #333333;
+  height: 40%;
+
 }
 
-#foot {
-  height: ;
-}
+
 
 #footer-button {
   background-color: #35e9d4;
@@ -261,3 +242,10 @@ span {
   border-radius: 20px;
   border: 1px solid #019480;
 }
+
+.space {
+  height: 100vh;
+  /* width: 100vw; */
+  background-color: #333333;
+}
+
