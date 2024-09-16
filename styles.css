@@ -179,7 +179,45 @@ span {
   column-gap: 20px;
 }
 
-#foothead {
+.footer-content {
+  background-color: #333;
+  color: #999;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.subscribe form {
+  display: flex;
+}
+
+.subscribe input {
+  padding: 10px;
+  border: none;
+  border-radius: 20px 0 0 20px;
+}
+
+.subscribe button {
+  background-color: #00e1d0;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+
+/* #foothead {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -226,9 +264,7 @@ span {
 
 }
 
-
-
-#footer-button {
+/* #footer-button {
   background-color: #35e9d4;
   color: white;
   padding: 10px 20px;
@@ -248,4 +284,4 @@ span {
   /* width: 100vw; */
   background-color: #333333;
 }
-
+  */
